@@ -1,0 +1,41 @@
+Exception- Meaning
+ArithmeticException - Arithmetic error, such as divide by zero
+⭐ArrayStoreException - Assignment to an array element of an
+incompatible type.
+⭐ClassCastException Invalid cast.
+⭐IllegalArgumentException Illegal argument used to invoke a method.
+⭐IllegalMonitorStateException Illegal monitor operation, such as waiting on an
+unlocked thread.
+⭐ArrayIndexOutOfBoundsException Array index is out of bounds.
+⭐IllegalStateException Environment or application is in incorrect state.
+⭐IllegalThreadStateException Requested operation not compatible with
+current thread state.
+⭐IndexOutOfBoundsException Some type of index is out of bounds.
+⭐StringIndexOutOfBounds Attempt to index outside the bounds of a string.
+⭐NegativeArraySizeException Array created with a negative size.
+⭐NullPointerException Invalid use of a null reference.
+⭐NumberFormatException Invalid conversion of a string to a numeric
+format.
+⭐UnsupportedOperationException An unsupported operation was encountered.
+
+
+1. start()
+Begins the execution of the thread. The JVM calls the run() method in a new thread.
+2. run()
+Contains the code that defines the thread's task. This method is called when the thread is started.
+3. sleep(long millis)
+Causes the currently executing thread to sleep (temporarily cease execution) for the specified number of milliseconds.
+4. join()
+Waits for the thread to die. This method can be called on another thread to wait until that thread completes.
+5. interrupt()
+Interrupts the thread, which can be used to stop a thread that is in a sleeping or waiting state. It sets the interrupt status of the thread.
+6. isAlive()
+Returns true if the thread has been started and has not yet died.
+7. setName(String name)
+Changes the name of the thread. Naming threads can help identify them during debugging.
+8. getName()
+Returns the name of the thread.
+9. setPriority(int priority)
+Changes the priority of the thread. Thread priority ranges from 1 (lowest) to 10 (highest).
+10. getPriority()
+Returns the priority of the thread.
